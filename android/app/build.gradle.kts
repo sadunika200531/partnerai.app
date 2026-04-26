@@ -2,7 +2,9 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
-
+plugins {
+    id("com.android.application") version "8.2.0" apply false
+}
 android {
     namespace = "com.monitor"
     compileSdk = 34
